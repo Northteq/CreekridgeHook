@@ -70,7 +70,7 @@ public class DefaultLandingPageAction extends Action {
 	    	   Group userSite=userSites.get(i);
 	    	   if( userSite.isRegularSite()){
      	   		 Group defaultGroup = userSite;
-     	   		path = PortalUtil.getPathFriendlyURLPrivateGroup() + defaultGroup.getFriendlyURL();
+     	   		path = PortalUtil.getPathFriendlyURLPrivateGroup() + defaultGroup.getFriendlyURL() + "/";
      		    break;
      	       }
 	    	}
